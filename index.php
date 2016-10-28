@@ -7,41 +7,10 @@ get_header(); ?>
 			<div class="row">		
 				<?php putRevSlider( "banner-index" ) ?>		
 			</div>
-		</div>
-	</section>
-
-	<section id="sobre-home">
-		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small">Massagem Tântrica em São Paulo</h1>
-					<h2>Venha fazer uma Massagem Tântrica com as melhores terapeutas de São Paulo</h2>
-				</div>
-			</div> <br>
-			<div class="row">
-				<div class="col-md-6 text-left">
-					<p>
-						A Massagem Tântrica traz vários benefícios para o organismo, combate o stresse,  
-auxilia no tratamento de dores musculares e traz um relaxamento profundo, além 
-de aumentar a disposição e o vigor físico.
-					</p>
-					<p>
-						Nossas terapeutas tântricas aplicam tanto técnicas milenares da Massagem 
-Tântrica como cada uma desenvolveu uma técnica de massagem personalizada e 
-especial para cada cliente.
-					</p>
-				</div>
-				<div class="col-md-6 text-left">
-					<p>
-						Todas as nossas terapeutas tântricas são habilitadas e treinadas nas mais 
-diversas técnicas orientais e ocidentais da Massagem Tântrica, tudo isso para 
-tornar sua sessão de massagem mais agradável e prazerosa.
-					</p>
-					<p>
-						A Massgem Tântrica é uma técnica ao mesmo tempo sensual e muito prazerosa. 
-Buscamos despertar para o prazer através do toque em harmonia com os cinco 
-sentidos, tato, olfato, paladar, audição, visão e ainda despertar outros sentidos.
-					</p>
+					<h1 class="small">FRISTAR</h1>
+					<h2>Instalação e Manutenção de Ar Condicionado</h2>
 				</div>
 			</div>
 		</div>
@@ -49,40 +18,17 @@ sentidos, tato, olfato, paladar, audição, visão e ainda despertar outros sent
 
 	<section id="servicos">
 		<div class="container">
-			<?php
-			$args = array( 'posts_per_page' => 6, 'offset'=> 0, 'orderby' => 'rand'  );
-
-			$myposts = get_posts( $args );
-			$i = 0;
-			foreach ( $myposts as $post ) : setup_postdata( $post );
-			?>
-				<?php
-				if($i % 3 == 0):
-				?>
-					<div class="row">
-				<?php endif ?>
+			<div class="row">
 				<div class="col-md-4">
-					<?php if ( has_post_thumbnail()) : ?>
-						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
-							<?php the_post_thumbnail('home-thumb', array(
-								'class' => "e-claro img-responsive",
-							)); ?>
-						</a>
-					<?php endif; ?>
-					<h4><?php the_title(); ?></h4>
-					<p><?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?></p>
-					<a href="<?php the_permalink(); ?>" class="btn-saiba-mais">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-corretiva.jpg"; ?>"/></a>
 				</div>
-	            <?php 
-	            $i++;
-	            if($i % 3 == 0): 
-	            ?>
-					</div><br><br>
-				<?php endif ?>
-			<?php 
-			endforeach; 
-			wp_reset_postdata();
-			?>
+				<div class="col-md-4">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-higienizacao.jpg"; ?>"/></a>
+				</div>
+				<div class="col-md-4">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
+				</div>
+			</div>
 		</div>		
 	</section>
 
