@@ -21,12 +21,18 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-corretiva.jpg"; ?>"/></a>
+					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-higienizacao.jpg"; ?>"/></a>
+					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
+					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 			</div>
 		</div>		
@@ -36,7 +42,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 text-left">
-					<h2 class="amarelo">Massagem Tântrica em São Paulo</h2>
+					<h2 class="amarelo">FRISTAR</h2>
 					<p class="">Não somos uma clínica ou casa de massagem!<br>
 						Nós somos profissionais autônomas especializadas em Massagem Tântrica 
 sem nenhuma conotação sexual.<br>
