@@ -6,13 +6,14 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">		
 				<?php putRevSlider( "banner-index" ) ?>		
-			</div>
+			</div><br><br>
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="small">FRISTAR</h1>
-					<h2>Instalação e Manutenção de Ar Condicionado</h2>
+					<h3>Instalação e Manutenção de Ar Condicionado</h3>
 				</div>
 			</div>
+			<br><br>
 		</div>
 	</section>
 
@@ -22,17 +23,17 @@ get_header(); ?>
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-corretiva.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-higienizacao.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 			</div>
 		</div>		
@@ -42,19 +43,17 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 text-left">
-					<h2 class="amarelo">FRISTAR</h2>
-					<p class="">Não somos uma clínica ou casa de massagem!<br>
-						Nós somos profissionais autônomas especializadas em Massagem Tântrica 
-sem nenhuma conotação sexual.<br>
-						Atendemos homens, mulheres e casais!
+					<h2>FRISTAR</h2>
+					<p class="">Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacarem no mercado digital.<br>
+					Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacarem no mercado digital.
 					</p>
 					<ul>
-						<li>Massagem Tântrica</li>
-						<li>Massagem Relaxante</li>
-						<li>As melhores terapeutas tântricas de São Paulo</li>
-						<li>Massagem personalizada e especial para cada cliente</li>
+						<li>Manutenção Preventiva</li>
+						<li>Manutenção Corretiva</li>
+						<li>Higienização e Limpeza</li>
+						<li>PMOC</li>
 					</ul>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">CONTATO</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira btn-azul">CONFIRA</a>
 				</div>
 				<div class="col-md-5 text-left">
 					
@@ -84,12 +83,12 @@ sem nenhuma conotação sexual.<br>
 		<div class="container">
 			<div class="row text-left detalhes-maps">
 				<div class="col-md-12">
-					<h2>Localização</h2>
+					<h2 class="branco">Nossa localização</h2>
 					<p>
-						Rua Silveira Martins 160 - Conjunto 2 - São Paulo - SP
+						Rua Capitão Eugênio de Macedo, 353 - Itaim Paulista - São Paulo - SP
 					</p>
 					<p>
-						<strong>Telefone.: </strong>11 1234-5678 <strong>Email.: </strong>contato@terapeutastantricas.com.br
+						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900  <strong>Email.: </strong>carolina@fristar.com.br
 					</p>
 				</div>
 			</div>

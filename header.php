@@ -20,49 +20,54 @@
 
 </head>
 
-<body <?php body_class(); ?>>
+<body>
 <div id="page">
-	<header id="header">
-		<div class="container">
-			<div class="row header-logo">
-				<div class="col-md-5">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>"/></a>
-				</div>
-				<div class="col-md-7 logo-center">
-					<div class="row redes">
+	<section id="header">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-8">
+						<span>Atendimento: <strong>11 2561-5068</strong></span>
 						<ul class="redes_sociais_header">
-							<li class="youtube"><a target="_blank" href="#"></a></li>
-							<li class="instagram"><a target="_blank" href="#"></a></li>
-							<li class="twitter"><a target="_blank" href="#"></a></li>
-							<li class="facebook"><a target="_blank" href="#"></a></li>
-						</ul>							
+							<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
+							<li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
+							<li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
+							<li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
+						</ul>
 					</div>
-					<div class="row">
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 text-left">
+						<a href="<?php echo home_url( '/' ); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>" /></a>
+					</div>
+					<div class="col-md-7 col-md-offset-2">
 						<div class="menu-responsivo">
 							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Quem Somos</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."massagem-tantrica"; ?>">A Massagem Tântrica</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."terapeutas"; ?>">Terapeutas</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+							<li><a href="<?php echo home_url( '/' )."sobre"; ?>">Home</a></li
+							><li><a href="<?php echo home_url( '/' )."mobidata"; ?>">A Empresa</a></li
+							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Serviços</a></li
+							><li><a target="_blank" href="<?php echo home_url( '/' )."blog-logistica"; ?>">Trabalhe Conosco</a></li
+							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li>
 							</ul>								
+						</div>						
+						<div class="menu-header clearfix">
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
+							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' )."blog-logistica"; ?>">Trabalhe Conosco</a></div>							
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">Serviços</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."mobidata"; ?>">A Empresa</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Home</a></div>
 						</div>
-						<nav>
-							<ul class="menu-principal clearfix">
-								<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Quem Somos</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."massagem-tantrica"; ?>">A Massagem Tântrica</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."terapeutas"; ?>">Terapeutas</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
-							</ul>
-						</nav><!-- #site-navigation -->						
-					</div>
+					</div>					
 				</div>
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</header><!-- #masthead -->
+			</div>
+		</nav>
+	</section>
 
 

@@ -56,7 +56,9 @@ div#content{
 	}
 
 	section#servicos{
-		padding-bottom:80px;	
+		background-color:#158fdb;
+		padding:80px 0;
+		color:white;
 
 		h4,p{
 			margin: 15px 0;
@@ -90,7 +92,7 @@ div#content{
 	}
 
 	section#maps{
-		background-color:#8f0351;
+		background-color:#158fdb;
 		color: white;
 
 		.detalhes-maps{
@@ -203,10 +205,6 @@ div#content{
 	section#redes-bot{
 		padding:80px 0;	
 		background-color:white;
-
-		h2{
-			color:#8f0351;	
-		}
 	
 		.redes_sociais_bot{
 			margin-bottom: 5px;

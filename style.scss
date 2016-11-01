@@ -50,23 +50,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size: 26px;
 		font-weight: bold;
-		color:#8f0351;
+		color:#282828;
 	}
 
 
 	h2{
 		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		font-size: 26px;
+		color:#282828;
+	}
+
+	h3{
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 		margin: 0;
 		margin-bottom: 20px;
 		font-size: 22px;
-		font-weight: bold;
-	}
-
-	h2.amarelo{
-		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-		font-size: 26px;
-		font-weight: bold;
-		color:#b70456;
+		font-weight: normal;
 	}
 
 	h4{
@@ -113,32 +112,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		color:#b70456;
 	}
 
-	.btn-saiba-mais{
+	.btn-confira{
 		-webkit-border-radius: 6px; 
 		-moz-border-radius: 6px; 
 		border-radius: 6px; 
-		background-color:#8f0351;
+		background-color:white;
 		padding:10px 45px;
-		color:white;
+		color:#158fdb;
+		font-weight:bold;
 		display:inline-block		
 	}
 
-	.btn-saiba-mais:hover{
-		background-color:#8c8c8c;
+	.btn-confira:hover{
+		background-color:#DCDCDC;
 	}
 
-	.btn-amarelo{
-		-webkit-border-radius: 6px; 
-		-moz-border-radius: 6px; 
-		border-radius: 6px; 
-		background-color:#f0c402;
-		padding:10px 45px;
+	.btn-azul{
+		background-color:#158fdb;
 		color:white;
-		display:inline-block		
 	}
 
-	.btn-amarelo:hover{
-		background-color:#f6db67;
+	.btn-azul:hover{
+		color:#158fdb;
 	}
 
 	.bx-wrapper .bx-viewport{
@@ -151,6 +146,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		.bx-clone{
 		   display: none !important;
 		} 		
+	}
+
+	.branco{
+		color:white;
 	}
 
 	.btn-receba{ 
