@@ -110,7 +110,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page .bx-wrapper .bx-viewport .bx-clone {
       display: none !important; }
   #page .branco {
-    color: white; }
+    color: white !important; }
+  #page .azul {
+    color: #0090df !important; }
   #page .btn-receba {
     background-color: #f3f2e9;
     font-weight: bold;
@@ -300,7 +302,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#servicos h4, #page div#content section#servicos p {
       margin: 15px 0; }
   #page div#content section#fotos-sobre {
-    padding: 80px 0;
+    padding-top: 40px;
+    padding-bottom: 80px;
     background-color: white; }
     #page div#content section#fotos-sobre ul {
       list-style-type: none;
@@ -310,10 +313,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page div#content section#fotos-sobre ul li:before {
         content: "\2713 \00a0";
         font-weight: bold; }
-    #page div#content section#fotos-sobre img {
-      float: left;
-      border: 5px solid #e8edf1;
-      margin: 5px; }
   #page div#content section#maps {
     background-color: #158fdb;
     color: white; }

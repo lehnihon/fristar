@@ -5,40 +5,22 @@ get_header(); ?>
 	<section id="fotos-sobre">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7 text-left">
-					<h1 class="small">Tântrica SP</h2>
-					<p>Não somos uma clínica ou casa de massagem!<br>
-						Nós somos profissionais autônomas especializadas em Massagem Tântrica 
-sem nenhuma conotação sexual.<br>
-						Atendemos homens, mulheres e casais!
-					</p>
+				<div class="col-md-6 text-left">
+					<h1 class="small azul">Sobre a FRISTAR</h1>
+					<p>A Fristar Ar Condicionado, foi fundada em setembro de 2015.<br>
+						Foi através de um trabalho sério, dedicado e com um atendimento diferenciado que conquistou seu espaçõ no mercado, ampliando sua carteira de clientes e os fidelizando.</p>
+					<p>Hoje é reconhecida por sua excelência na prestação de serviços pois investe em produtos de alta qualidade, visando sempre inovar e criar novas formas de atender e satisfazer as necessidades de seus clientes, visando o conforto e o bem-estar.</p>
+					<p>Os seus serviços estão direcionados a instalação de ar condicionado e manutenção em geral, com a qualidade e garantia necessária para atender todos os tipos de consumidores, seja industrial ou residencial aonde a ética, honestidade, caráter, profissionalismo e responsabilidade ambiental, fazem parte do nosso cotidiano equacionando um diferencial no mercado de refrigeração e oferecendo o que há de melhor em climatização.</p>
 					<ul>
-						<li>Massagem Tântrica</li>
-						<li>Massagem Relaxante</li>
-						<li>As melhores terapeutas tântricas de São Paulo</li>
-						<li>Massagem personalizada e especial para cada cliente</li>
+						<li>Manutenção Preventiva</li>
+						<li>Manutenção Corretiva</li>
+						<li>Higienização e Limpeza</li>
+						<li>PMOC</li>
 					</ul>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">CONTATO</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira btn-azul">CONTATO</a>				
 				</div>
-				<div class="col-md-5 text-left">
-					
-					<div class="row">
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
-						</div>
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
-						</div>
-					</div>
-					<div class="fotos-sobre row">	
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
-						</div>
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
-						</div>
-					</div>
-			
+				<div class="col-md-6">
+					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/ar-condicionado.jpg"; ?>"/>
 				</div>
 			</div>	
 		</div>	
@@ -48,12 +30,12 @@ sem nenhuma conotação sexual.<br>
 		<div class="container">
 			<div class="row text-left detalhes-maps">
 				<div class="col-md-12">
-					<h2>Localização</h2>
+					<h2 class="branco">Nossa localização</h2>
 					<p>
-						Rua Silveira Martins 160 - Conjunto 2 - São Paulo - SP
+						Rua Capitão Eugênio de Macedo, 353 - Itaim Paulista - São Paulo - SP
 					</p>
 					<p>
-						<strong>Telefone.: </strong>11 1234-5678 <strong>Email.: </strong>contato@terapeutastantricas.com.br
+						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900  <strong>Email.: </strong>carolina@fristar.com.br
 					</p>
 				</div>
 			</div>
