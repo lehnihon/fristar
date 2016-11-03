@@ -433,6 +433,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       height: 67px;
       display: inline-block; }
   @media (max-width: 991px) {
+    #page div#content .col-md-4 {
+      margin-bottom: 25px; }
+    #page div#content .margin-responsivo {
+      margin-bottom: 10px; }
     #page div#content section#atelie-menu ul.btn-atelie li {
       float: none;
       width: 100%;

@@ -23,17 +23,17 @@ get_header(); ?>
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-corretiva.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) ).""; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-higienizacao.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) ).""; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) ).""; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 			</div>
 		</div>		
@@ -42,7 +42,7 @@ get_header(); ?>
 	<section id="fotos-sobre">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7 text-left">
+				<div class="col-md-6 text-left">
 					<h2>FRISTAR</h2>
 					<p class="">Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacarem no mercado digital.<br>
 					Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacarem no mercado digital.
@@ -53,27 +53,10 @@ get_header(); ?>
 						<li>Higienização e Limpeza</li>
 						<li>PMOC</li>
 					</ul>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira btn-azul">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira btn-azul margin-responsivo">CONFIRA</a>
 				</div>
-				<div class="col-md-5 text-left">
-					
-					<div class="row">
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
-						</div>
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
-						</div>
-					</div>
-					<div class="fotos-sobre row">	
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
-						</div>
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
-						</div>
-					</div>
-			
+				<div class="col-md-6 text-left">
+					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/ar-condicionado.jpg"; ?>"/>
 				</div>
 			</div>	
 		</div>	

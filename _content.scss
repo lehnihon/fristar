@@ -263,6 +263,12 @@ div#content{
 }
 @media (max-width: 991px) { 
 	div#content{ 
+		.col-md-4{
+			margin-bottom:25px;
+		}
+		.margin-responsivo{
+			margin-bottom:10px;
+		}
 		section#atelie-menu{
 			ul.btn-atelie{
 		
