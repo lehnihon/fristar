@@ -53,13 +53,13 @@
 							<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li
 							><li><a href="<?php echo home_url( '/' )."sobre"; ?>">A Empresa</a></li
 							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Serviços</a></li
-							><li><a target="_blank" href="<?php echo home_url( '/' ).""; ?>">Trabalhe Conosco</a></li
-							><li><a href="<?php echo home_url( '/' ).""; ?>">Contato</a></li>
+							><li><a target="_blank" href="<?php echo home_url( '/' )."contato"; ?>">Trabalhe Conosco</a></li
+							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
-							<div class="menu-op"><a href="<?php echo home_url( '/' ).""; ?>">Contato</a></div>
-							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' ).""; ?>">Trabalhe Conosco</a></div>							
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
+							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' )."contato"; ?>">Trabalhe Conosco</a></div>							
 							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ).""; ?>">Serviços</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">A Empresa</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Home</a></div>

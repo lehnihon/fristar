@@ -3,8 +3,8 @@ get_header(); ?>
 
 <div id="content">
 	<section id="contato">
-		<h1 class="title-full small"><div class="animated bounceIn">Contato</div></h1>
-		<h4>Entre em contato com as melhore terapeutas de Massagem Tântrica de São Paulo</h4>
+		<h1 class="azul small"><div class="animated bounceIn">Contato</div></h1>
+		<h3 class="azul">Entre em contato com a Fristar</h3>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left">
@@ -12,16 +12,15 @@ get_header(); ?>
 				</div>
 				<div class="col-md-6 text-left ">
 					<div class="videoWrapperb">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.0745529549595!2d-46.53579738443502!3d-23.637500970294973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42b832ebfd53%3A0x6ba710aa9626a2ea!2sR.+Silveira+Martins%2C+160+-+Santa+Teresinha%2C+Santo+Andr%C3%A9+-+SP%2C+09210-520!5e0!3m2!1spt-BR!2sbr!4v1470075254982" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.886412271463!2d-46.40424858551352!3d-23.500600465235326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce638221e3bf09%3A0xc096822a20507e28!2sRua+Capit%C3%A3o+Eugenio+de+Macedo%2C+353+-+Vila+Silva+Teles%2C+S%C3%A3o+Paulo+-+SP%2C+08110-150!5e0!3m2!1spt-BR!2sbr!4v1478214412715" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>					</div>
 					<div class="quadro">
 					<p>
-						Rua Silveira Martins 160 - Conjunto 2 - São Paulo - SP
+						Rua Capitão Eugênio de Macedo, 353 - Itaim Paulista - São Paulo - SP
 					</p>
 					<p>
-						11 1234-5678
+						11 2561-5068 | 11 98359-1900
 					</p>
-					<p>contato@terapeutastantricas.com.br</p>							
+					<p>carolina@fristar.com.br</p>							
 					</div>
 				</div>
 			</div>	

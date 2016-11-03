@@ -25,8 +25,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   color: #373737;
-  text-align: center;
-  background-color: #f6f8fb; }
+  text-align: center; }
   #page a {
     color: #373737; }
   #page a:hover {
@@ -263,6 +262,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: block; } }
   #page div#content section#sobre-home {
     padding: 80px 0; }
+  #page div#content section#servicos-detalhes {
+    padding-top: 40px; }
+  #page div#content section#banner {
+    padding-top: 40px; }
   #page div#content section#atelie-menu {
     margin-bottom: 100px; }
     #page div#content section#atelie-menu ul.btn-atelie {
@@ -381,7 +384,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding-bottom: 80px; }
     #page div#content section#contato div.quadro {
       padding: 25px 50px;
-      background-color: #8f0351;
+      background-color: #158fdb;
       margin-top: 10px;
       color: white; }
   #page div#content section#redes-bot {
