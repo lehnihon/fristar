@@ -157,14 +157,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-receba{ 
-		background-color: #f3f2e9;
-		font-weight:bold;
-		padding:5px 25px;
+		background-color: white;
+		padding:10px 50px;
+		color:#158fdb;
 		border:0;
-		color:#373737;
+		font-weight: bold;
 	}
 	.btn-receba:hover{
-		background-color:#F9F8F4;
+		background-color:#DCDCDC;
 	}
 	.input-receba-wrap{
 		margin-bottom: 5px;
@@ -180,7 +180,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	.input-contato{
 		border:0;
 		padding:5px;
-		background-color: white;
+		background-color: f6f8fb;
 	}
 
 	.input-contatob{
@@ -190,14 +190,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-enviar{
-		background-color:#fe3191;
+		background-color: #158fdb;
 		padding:10px 50px;
 		color:white;
 		border:0;
 		font-weight: bold;
 	}
 	.btn-enviar:hover{
-		background-color:#fe6eb2;
+		color:#158fdb;
+		background-color:#DCDCDC;
 	}
 
 

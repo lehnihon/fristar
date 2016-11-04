@@ -114,13 +114,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .azul {
     color: #0090df !important; }
   #page .btn-receba {
-    background-color: #f3f2e9;
-    font-weight: bold;
-    padding: 5px 25px;
+    background-color: white;
+    padding: 10px 50px;
+    color: #158fdb;
     border: 0;
-    color: #373737; }
+    font-weight: bold; }
   #page .btn-receba:hover {
-    background-color: #F9F8F4; }
+    background-color: #DCDCDC; }
   #page .input-receba-wrap {
     margin-bottom: 5px;
     color: #606060; }
@@ -132,19 +132,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-contato {
     border: 0;
     padding: 5px;
-    background-color: white; }
+    background-color: f6f8fb; }
   #page .input-contatob {
     border: 0;
     padding: 5px;
     background-color: white; }
   #page .btn-enviar {
-    background-color: #fe3191;
+    background-color: #158fdb;
     padding: 10px 50px;
     color: white;
     border: 0;
     font-weight: bold; }
   #page .btn-enviar:hover {
-    background-color: #fe6eb2; }
+    color: #158fdb;
+    background-color: #DCDCDC; }
   #page div.paginacao {
     margin: 50px 0; }
     #page div.paginacao .page-numbers {
