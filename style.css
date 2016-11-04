@@ -44,7 +44,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page h2 {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 26px;
-    color: #282828; }
+    color: #282828;
+    margin-top: 0px; }
   #page h3 {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     margin: 0;
@@ -114,6 +115,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .azul {
     color: #0090df !important; }
   #page .btn-receba {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
     background-color: white;
     padding: 10px 50px;
     color: #158fdb;
@@ -132,12 +136,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-contato {
     border: 0;
     padding: 5px;
-    background-color: f6f8fb; }
+    background-color: #f6f8fb; }
   #page .input-contatob {
     border: 0;
     padding: 5px;
     background-color: white; }
   #page .btn-enviar {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
     background-color: #158fdb;
     padding: 10px 50px;
     color: white;
@@ -383,15 +390,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       text-align: left;
       padding: 25px 35px; }
   #page div#content section#contato {
-    margin-top: 40px;
-    padding-bottom: 80px; }
+    margin-top: 40px; }
     #page div#content section#contato div.quadro {
       padding: 25px 50px;
       background-color: #158fdb;
       margin-top: 10px;
       color: white; }
   #page div#content section#redes-bot {
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: white; }
     #page div#content section#redes-bot .redes_sociais_bot {
       margin-bottom: 5px;

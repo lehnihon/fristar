@@ -21,7 +21,7 @@ get_header(); ?>
 					não for executada por uma equipe qualificada, com certeza trará dores de cabeça aos consumidores. </p>
 					<p>Se estiver em dúvida da capacidade ou modelo ideal de Ar Condicionado, entre em contato com os especialistas da Fristar. </p>
 				</div>
-			</div><br>
+			</div><br><br>
 			<div class="row">
 				<div class="col-md-12">
 					<a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>" class="btn-confira btn-azul">Fale com um Especialista</a>

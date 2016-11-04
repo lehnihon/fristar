@@ -17,7 +17,7 @@ get_header(); ?>
 						<li>Higienização e Limpeza</li>
 						<li>PMOC</li>
 					</ul>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-confira btn-azul">CONTATO</a>				
+					<a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>" class="btn-confira btn-azul">CONTATO</a>				
 				</div>
 				<div class="col-md-6">
 					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/ar-condicionado.jpg"; ?>"/>

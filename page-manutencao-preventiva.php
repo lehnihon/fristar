@@ -28,7 +28,7 @@ get_header(); ?>
 					<p>A manutenção preventiva do ar-condicionado impede que você tenha gastos elevados ao se deparar com um problema maior do que o esperado em seu aparelho. É melhor economizar com prevenção do que com um conserto.</p>
 					<p>Você tem motivos de sobra para investir na manutenção preventiva do seu ar-condicionado. Agende agora mesmo a visita de um especialista da Fristar e previna problemas futuros.</p>
 				</div>
-			</div><br>
+			</div><br><br>
 			<div class="row">
 				<div class="col-md-12">
 					<a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>" class="btn-confira btn-azul">Fale com um Especialista</a>

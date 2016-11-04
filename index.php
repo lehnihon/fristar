@@ -5,7 +5,9 @@ get_header(); ?>
 	<section id="banner">
 		<div class="container">
 			<div class="row">		
-				<?php putRevSlider( "banner-index" ) ?>		
+				<div class="col-md-12">
+					<?php putRevSlider( "banner-index" ) ?>
+				</div>
 			</div><br><br>
 			<div class="row">
 				<div class="col-md-12">
@@ -13,7 +15,6 @@ get_header(); ?>
 					<h3>Instalação e Manutenção de Ar Condicionado</h3>
 				</div>
 			</div>
-			<br><br>
 		</div>
 	</section>
 
@@ -22,18 +23,18 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-4 anima-a">
 					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-corretiva.jpg"; ?>"/></a>
-					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
+					<p>A manutenção corretiva do Ar Condicionado tem a função de fazer todos os tipos de consertos e reparos nos equipamentos de ar condicionado.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4 anima-b">
-					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-higienizacao.jpg"; ?>"/></a>
-					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" class="btn-confira">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-higienizacao.jpg"; ?>"/></a>
+					<p>A Higienização e Limpeza do Ar Condicionado é uma prática que vai além da limpeza dos filtros e deve ser realizada periódicamente.</p>
+					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4 anima-c">
-					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
-					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" class="btn-confira">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
+					<p>Analisamos os projetos de Ar Condicionado de todos os tipos e fazemos a execução da instalação em residências, comércios e indústrias. </p>
+					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 			</div>
 		</div>		
@@ -44,8 +45,8 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-6 text-left anima-h">
 					<h2>FRISTAR</h2>
-					<p class="">Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacarem no mercado digital.<br>
-					Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacarem no mercado digital.
+					<p class="">A Fristar Ar Condicionado através de trabalho sério, dedicação e atendimento diferenciado, conquistou seu espaço no mercado.<br>
+					Atualmente a Fristar Ar Condicionado é reconhecida por sua excelência na prestação de serviços de instalação de ar condicionado e manutenção de ar condicionado em geral.
 					</p>
 					<ul>
 						<li>Manutenção Preventiva</li>

@@ -58,6 +58,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 		font-size: 26px;
 		color:#282828;
+		margin-top:0px;
 	}
 
 	h3{
@@ -157,6 +158,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-receba{ 
+		-webkit-border-radius: 6px; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px; 
 		background-color: white;
 		padding:10px 50px;
 		color:#158fdb;
@@ -180,7 +184,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	.input-contato{
 		border:0;
 		padding:5px;
-		background-color: f6f8fb;
+		background-color: #f6f8fb;
 	}
 
 	.input-contatob{
@@ -190,6 +194,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-enviar{
+		-webkit-border-radius: 6px; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px; 
 		background-color: #158fdb;
 		padding:10px 50px;
 		color:white;

@@ -18,7 +18,7 @@ get_header(); ?>
 					<p>Realizamos visita para orçamento e damos a tranquilidade que somente uma empresa como a Fristar pode dar.</p>
 					<p>Todos nossos serviços de conserto acompanham a garantia da Fristar, dependendo da manutenção do ar condicionado que foi realizada.</p>
 				</div>
-			</div><br>
+			</div><br><br>
 			<div class="row">
 				<div class="col-md-12">
 					<a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>" class="btn-confira btn-azul">Fale com um Especialista</a>
