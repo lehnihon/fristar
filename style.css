@@ -25,7 +25,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   color: #373737;
-  text-align: center; }
+  text-align: center;
+  background-color: white; }
   #page a {
     color: #373737; }
   #page a:hover {
@@ -301,6 +302,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page div#content section#servicos {
     background-color: #158fdb;
     padding: 80px 0;
+    margin-top: 40px;
     color: white; }
     #page div#content section#servicos h4, #page div#content section#servicos p {
       margin: 15px 0; }

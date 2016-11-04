@@ -6,7 +6,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small azul">Manutenção Corretiva</h1>
+					<h1 class="small azul"><div class="animated bounceIn">Manutenção Corretiva</div></h1>
 					<h3 class="azul">de Ar-Condicionado</h3><br>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/manutencao-corretiva.jpg"; ?>"/></a>
 				</div>

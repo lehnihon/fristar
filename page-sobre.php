@@ -6,7 +6,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left">
-					<h1 class="small azul">Sobre a FRISTAR</h1>
+					<h1 class="small azul"><div class="animated bounceIn">Sobre a FRISTAR</div></h1>
 					<p>A Fristar Ar Condicionado, foi fundada em setembro de 2015.<br>
 						Foi através de um trabalho sério, dedicado e com um atendimento diferenciado que conquistou seu espaçõ no mercado, ampliando sua carteira de clientes e os fidelizando.</p>
 					<p>Hoje é reconhecida por sua excelência na prestação de serviços pois investe em produtos de alta qualidade, visando sempre inovar e criar novas formas de atender e satisfazer as necessidades de seus clientes, visando o conforto e o bem-estar.</p>

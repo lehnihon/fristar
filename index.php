@@ -9,7 +9,7 @@ get_header(); ?>
 			</div><br><br>
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small">FRISTAR</h1>
+					<h1 class="small"><div class="animated bounceIn">FRISTAR</div></h1>
 					<h3>Instalação e Manutenção de Ar Condicionado</h3>
 				</div>
 			</div>
@@ -20,17 +20,17 @@ get_header(); ?>
 	<section id="servicos">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 anima-a">
 					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-corretiva.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 anima-b">
 					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-higienizacao.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 anima-c">
 					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
 					<p>Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacaremno mercado digital.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" class="btn-confira">CONFIRA</a>
@@ -42,7 +42,7 @@ get_header(); ?>
 	<section id="fotos-sobre">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 text-left">
+				<div class="col-md-6 text-left anima-h">
 					<h2>FRISTAR</h2>
 					<p class="">Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacarem no mercado digital.<br>
 					Somos uma agência de marketing digital especializada em micro e pequenas empresas brasileiras a se destacarem no mercado digital.
@@ -55,7 +55,7 @@ get_header(); ?>
 					</ul>
 					<a href="<?php echo esc_url( home_url( '/' ) )."sobre"; ?>" class="btn-confira btn-azul margin-responsivo">CONFIRA</a>
 				</div>
-				<div class="col-md-6 text-left">
+				<div class="col-md-6 text-left anima-i">
 					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/ar-condicionado.jpg"; ?>"/>
 				</div>
 			</div>	
