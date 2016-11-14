@@ -64,6 +64,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col-md-6 text-left">
+					<br><br>
 					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/ar-btu.jpg"; ?>"/>
 				</div>
 			</div><br><br><br>

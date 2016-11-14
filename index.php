@@ -49,7 +49,7 @@ get_header(); ?>
 					<a href="<?php echo esc_url( home_url( '/' ) )."elaboracao-de-projetos"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4 anima-c">
-					<a href="<?php echo esc_url( home_url( '/' ) )."plano-de-manutencao-operacao-controle"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."plano-de-manutencao-operacao-controle"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-plano.jpg"; ?>"/></a>
 					<p>O Plano de Manutenção Operação e Controle, busca garantir a qualidade do ambiente e preservar a saúde das pessoas.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."plano-de-manutencao-operacao-controle"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
