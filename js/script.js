@@ -1,5 +1,16 @@
 ( function( $ ) {
 	$(function() {
+
+		$('.calculadora').on('click', function(){
+			var area = $('.area').val()*685.5;
+			var pessoas = $('.pessoas').val()*600;
+			var aparelhos = $('.aparelhos').val()*600;
+			var paredes = $('.paredes').val()*160;
+			var vidros = $('.vidros').val()*320;
+
+			$('.carga-total').text(parseInt(area+pessoas+aparelhos+paredes+vidros));
+		});
+
         $('.videoWrapper').click(function () {
             $('.videoWrapper iframe').css("pointer-events", "auto");
         });
@@ -15,7 +26,7 @@
 	});
 
 	$(window).scroll(function() {
-        if ($(this).scrollTop() > 350) {
+        if ($(this).scrollTop() > 500) {
 			var FunctionOne = function () {
 				var r = $.Deferred();
 
@@ -38,7 +49,7 @@
 
         }
 
-        if ($(this).scrollTop() > 900) {
+        if ($(this).scrollTop() > 1400) {
         	$(".anima-h").css('visibility','visible');
         	$(".anima-h").addClass('animated bounceInLeft');
         	$(".anima-i").css('visibility','visible');

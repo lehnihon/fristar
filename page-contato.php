@@ -19,9 +19,11 @@ get_header(); ?>
 						Rua Capitão Eugênio de Macedo, 353 - Itaim Paulista - São Paulo - SP
 					</p>
 					<p>
-						11 2561-5068 | 11 98359-1900
+						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900 
+						<strong>WhatsApp.: </strong>11 94944-3706
+						<strong>Email.: </strong>assistencia@fristar.com						
 					</p>
-					<p>carolina@fristar.com.br</p>							
+
 					</div>
 				</div>
 			</div>	

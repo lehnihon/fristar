@@ -26,8 +26,9 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-md-offset-8">
-						<span>Atendimento: <strong>11 2561-5068</strong></span>
+					<div class="col-md-6 col-md-offset-6">
+						<span>Atendimento: <strong>11 2561-5068</strong></span> 
+						<span style="margin-left: 10px">WhatsApp.: <strong>11 94944-3706</strong></span>
 						<ul class="redes_sociais_header">
 							<li class="youtube"><a target="_blank" href="#"></a></li>
 							<li class="instagram"><a target="_blank" href="#"></a></li>
@@ -53,11 +54,13 @@
 							<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li
 							><li><a href="<?php echo home_url( '/' )."sobre"; ?>">A Empresa</a></li
 							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Serviços</a></li
+							><li><a href="<?php echo home_url( '/' )."calculadora-btus"; ?>">Calculadora de BTUs</a></li
 							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/calculadora-btus' ).""; ?>">Calculadora de BTUs</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ).""; ?>">Serviços</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">A Empresa</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Home</a></div>
