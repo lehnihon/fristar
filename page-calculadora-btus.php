@@ -72,6 +72,12 @@ get_header(); ?>
 				<div class="col-md-12">
 					<a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>" class="btn-confira btn-azul">Fale com um Especialista</a>
 				</div>
+			</div><br><br>
+			<div class="row">
+				<div class="col-md-12">
+					Obs.: As informações acima podem variar dependendo de diversos fatores, como sol, eletrônicos, pessoas entre outros. 
+					Para um cálculo ideial de ar condicionado, solicite uma visita técnica de um profissional da Fristar.					
+				</div>
 			</div>
 		</div>		
 	</section>
