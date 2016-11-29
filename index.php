@@ -91,7 +91,7 @@ get_header(); ?>
 					<p>
 						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900 
 						<strong>WhatsApp.: </strong>11 94944-3706
-						<strong>Email.: </strong>assistencia@fristar.com
+						<strong>Email.: </strong>assistencia@fristar.com.br
 					</p>
 				</div>
 			</div>

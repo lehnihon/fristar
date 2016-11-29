@@ -8,7 +8,7 @@ get_header(); ?>
 				<div class="col-md-12">
 					<h1 class="small azul"><div class="animated bounceIn">Serviço de Instalação</div></h1>
 					<h3 class="azul">de Ar-Condicionado</h3><br>
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/manutencao-corretiva.jpg"; ?>"/>
+					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/servico-instalacao.jpg"; ?>"/>
 				</div>
 			</div><br><br>
 			<div class="row">
