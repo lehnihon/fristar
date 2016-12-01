@@ -28,12 +28,12 @@
 				<div class="row">
 					<div class="col-md-6 col-md-offset-6">
 						<span>Atendimento: <strong>11 2561-5068</strong></span> 
-						<span style="margin-left: 10px">WhatsApp.: <strong>11 94944-3706</strong></span>
+						<span style="margin-left: 10px">WhatsApp.: <strong>11 95373-9510</strong></span>
 						<ul class="redes_sociais_header">
 							<li class="youtube"><a target="_blank" href="#"></a></li>
-							<li class="instagram"><a target="_blank" href="#"></a></li>
-							<li class="twitter"><a target="_blank" href="#"></a></li>
-							<li class="facebook"><a target="_blank" href="https://www.facebook.com/Fristar.arcondicionado/?pnref=lhc"></a></li>
+							<li class="instagram"><a target="_blank" href="https://www.instagram.com/FristarAr/"></a></li>
+							<li class="twitter"><a target="_blank" href="https://twitter.com/FristarAr"></a></li>
+							<li class="facebook"><a target="_blank" href="https://www.facebook.com/Fristar.arcondicionado"></a></li>
 						</ul>
 					</div>
 				</div>
